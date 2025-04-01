@@ -14,14 +14,14 @@ export default function WeatherApp() {
         humidity:47,
   });
   
-   let updateInfo = (newInfo)=>{
-    setWeatherInfo(newInfo);
-   }
+  const updateInfo = (newInfo) => {  
+    setWeatherInfo(newInfo);  
+  };  
   return (
     <>
        <div style={{textAlign:'center',paddingTop:'20px'}}>
-         <div style={{border:'1px black solid', display:'inline-block',padding:'40px'}}>
-           <h1>WeatherApp</h1>
+         <div>
+           <h1 style={{fontSize:"45px",fontWeight:'800'}}>WeatherApp</h1>
            <SearchBox updateInfo={updateInfo}/>
          </div>
          <InfoBox info={weatherInfo}/>

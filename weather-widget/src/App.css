@@ -1,5 +1,9 @@
-*{
-  /* background-color: rgba(128, 134, 101, 0.792); */
+body{
+  background:url("4292206.webp");
+  background-repeat: no-repeat;
+  width: 100%;  
+  height: 100vh; 
+  background-size: 100% 100%;  
 }
 .searchbox{
   text-align: center;

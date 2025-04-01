@@ -19,9 +19,9 @@ export default function WeatherApp() {
   };  
   return (
     <>
-       <div style={{textAlign:'center',paddingTop:'20px'}}>
+       <div style={{textAlign:'center'}}>
          <div>
-           <h1 style={{fontSize:"45px",fontWeight:'800'}}>WeatherApp</h1>
+           <h1 style={{fontSize:"45px",fontWeight:'800',paddingTop:'40px'}}>WeatherApp</h1>
            <SearchBox updateInfo={updateInfo}/>
          </div>
          <InfoBox info={weatherInfo}/>
